@@ -6,10 +6,10 @@ name: Node.js CI
 on:
   push:
       tags:
-          # - 'release-v*.*.*'
+          - 'release-v*.*.*'
           # - 'beta-v*.*.*'
           # - 'stag-v*.*.*'
-          - 'test-v*.*.*'
+          # - 'test-v*.*.*'
 
 jobs:
   build:
