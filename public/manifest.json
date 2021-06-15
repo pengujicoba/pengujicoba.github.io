@@ -5,7 +5,7 @@
   "start_url": ".",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#fbbc05",
+  "theme_color": "#fc9823",
   "background_color": "#232323",
   "permissions": ["gcm"],
   "prefer_related_applications": false,
