@@ -5,8 +5,11 @@ name: Node.js CI
 
 on:
   push:
-    tags:        
-        - v*.*.*-production
+      tags:
+          # - 'release-v*.*.*'
+          # - 'beta-v*.*.*'
+          # - 'stag-v*.*.*'
+          - 'test-v*.*.*'
 
 jobs:
   build:
